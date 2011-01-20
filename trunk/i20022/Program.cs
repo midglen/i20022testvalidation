@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using i20022;
-using i20022.acmt00200102;
 using System.IO;
 
 namespace i20022
@@ -12,7 +10,8 @@ namespace i20022
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("teste");
+            AccountManagementTest acmtt = new AccountManagementTest();
+            acmtt.testAcmt00100102();
         }
     }
 }
