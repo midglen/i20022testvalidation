@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Document xmlns = "urn:iso:std:iso:20022:tech:xsd:seev.010.001.01" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "urn:iso:std:iso:20022:tech:xsd:seev.010.001.01 file:///Y:/My%20Documents/Project/IssuerAgent/Official%20ISO%20schemas%20and%20documentation/seev.010.001.01.xsd">
+	<AgtCANtfctnCxlReq>
+		<Id>
+			<Id>NOTIF123CANX</Id>
+		</Id>
+		<NtfctnCxlTpAndLkg>
+			<NtfctnCxlTp>WITH</NtfctnCxlTp>
+			<LkdAgtCANtfctnAdvcId>
+				<Id>NOTIF123</Id>
+			</LkdAgtCANtfctnAdvcId>
+		</NtfctnCxlTpAndLkg>
+		<CorpActnGnlInf>
+			<AgtId>
+				<BICOrBEI>ISAGGB2L</BICOrBEI>
+			</AgtId>
+			<IssrCorpActnId>TNDOF123</IssrCorpActnId>
+			<EvtTp>
+				<Cd>TEND</Cd>
+			</EvtTp>
+			<EvtPrcgTp>
+				<Cd>REOR</Cd>
+			</EvtPrcgTp>
+			<MndtryVlntryEvtTp>
+				<Cd>VOLU</Cd>
+			</MndtryVlntryEvtTp>
+			<UndrlygScty>
+				<SctyId>
+					<ISIN>GB3333A53L22</ISIN>
+				</SctyId>
+			</UndrlygScty>
+		</CorpActnGnlInf>
+	</AgtCANtfctnCxlReq>
+</Document>

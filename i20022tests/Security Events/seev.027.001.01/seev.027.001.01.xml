@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Document xmlns = "urn:iso:std:iso:20022:tech:xsd:seev.027.001.01" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "urn:iso:std:iso:20022:tech:xsd:seev.027.001.01 file:///Y:/My%20Documents/Project/IssuerAgent/Official%20ISO%20schemas%20and%20documentation/seev.027.001.01.xsd">
+	<AgtCAStgInstrStsAdvc>
+		<Id>
+			<Id>SII123STAT</Id>
+		</Id>
+		<AgtCAStgInstrReqId>
+			<Id>SII123</Id>
+		</AgtCAStgInstrReqId>
+		<StgInstrGnlInf>
+			<StgInstrTp>SECU</StgInstrTp>
+			<InstgPtyId>
+				<BICOrBEI>BANKFRPP</BICOrBEI>
+			</InstgPtyId>
+			<ClntStgInstrId>SICLIREF123</ClntStgInstrId>
+		</StgInstrGnlInf>
+		<StgInstrReqSts>
+			<PrcdSts>
+				<Sts>
+					<Cd>PACK</Cd>
+				</Sts>
+			</PrcdSts>
+		</StgInstrReqSts>
+	</AgtCAStgInstrStsAdvc>
+</Document>
