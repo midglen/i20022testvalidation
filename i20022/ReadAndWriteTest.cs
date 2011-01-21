@@ -14,12 +14,23 @@ namespace i20022
     {
         public static void runTest(string path)
         {
-            Console.Write("Starting Read and Write Test for file: " + path);
+            Console.WriteLine("");
+            Console.Write("Starting Read and Write Test for file: " + path + "...");
             String xml = File.ReadAllText(path);
-            MessageDocument md = new MessageDocument(xml);
-            Document document = (Document)md.ToObject();
-            MessageObject mo = new MessageObject(document);
-            File.WriteAllText(path + "-test.xml", mo.ToXml());
+            MessageObject mo = null;
+            MessageDocument md = null;
+            try
+            {
+                md = new MessageDocument(xml);
+                Object document = md.ToObject();
+                mo = new MessageObject(document);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("#### ERROR ####");
+                return;
+            }
+            File.WriteAllText(path + ".rw.test", mo.ToXml());
             Console.WriteLine(" Done!!!");
         }
     }

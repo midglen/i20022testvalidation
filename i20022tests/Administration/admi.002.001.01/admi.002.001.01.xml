@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Document xmlns = "urn:iso:std:iso:20022:tech:xsd:admi.002.001.01" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance">
+	<admi.002.001.01>
+		<RltdRef>
+			<Ref>ND234</Ref>
+		</RltdRef>
+		<Rsn>
+			<RjctgPtyRsn>Wrong date time format</RjctgPtyRsn>
+		</Rsn>
+	</admi.002.001.01>
+</Document>
