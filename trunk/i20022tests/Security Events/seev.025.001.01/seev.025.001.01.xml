@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Document xmlns = "urn:iso:std:iso:20022:tech:xsd:seev.025.001.01" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "urn:iso:std:iso:20022:tech:xsd:seev.025.001.01 file:///Y:/My%20Documents/Project/IssuerAgent/Official%20ISO%20schemas%20and%20documentation/seev.025.001.01.xsd">
+	<AgtCAStgInstrReq>
+		<Id>
+			<Id>SSI123</Id>
+		</Id>
+		<StgInstrGnlInf>
+			<StgInstrTp>SECU</StgInstrTp>
+			<InstgPtyId>
+				<BICOrBEI>BANKFRPP</BICOrBEI>
+			</InstgPtyId>
+			<ClntStgInstrId>SICLIREF123</ClntStgInstrId>
+			<AcctDtls>
+				<SctiesAcctId>12345</SctiesAcctId>
+				<InclInd>true</InclInd>
+			</AcctDtls>
+			<AcctDtls>
+				<SctiesAcctId>45678</SctiesAcctId>
+				<InclInd>false</InclInd>
+			</AcctDtls>
+		</StgInstrGnlInf>
+		<StgInstrDtls>
+			<SctiesDstrbtnDtls>
+				<SctyId>
+					<ISIN>FR1234567890</ISIN>
+				</SctyId>
+				<SctiesAcctId>1A2B3C000</SctiesAcctId>
+				<SfkpgPlc>
+					<BICOrBEI>CUSTFRPP</BICOrBEI>
+				</SfkpgPlc>
+			</SctiesDstrbtnDtls>
+		</StgInstrDtls>
+	</AgtCAStgInstrReq>
+</Document>

@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Document xmlns = "urn:iso:std:iso:20022:tech:xsd:seev.012.001.01" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "urn:iso:std:iso:20022:tech:xsd:seev.012.001.01 file:///Y:/My%20Documents/Project/IssuerAgent/Official%20ISO%20schemas%20and%20documentation/seev.012.001.01.xsd">
+	<AgtCAElctnAdvc>
+		<Id>
+			<Id>ELEC123</Id>
+		</Id>
+		<ElctnAdvcTpAndLkg>
+			<ElctnTp>NEWM</ElctnTp>
+		</ElctnAdvcTpAndLkg>
+		<CorpActnGnlInf>
+			<AgtId>
+				<BICOrBEI>ISAGGB2L</BICOrBEI>
+			</AgtId>
+			<IssrCorpActnId>TNDOF123</IssrCorpActnId>
+			<EvtTp>
+				<Cd>TEND</Cd>
+			</EvtTp>
+			<MndtryVlntryEvtTp>
+				<Cd>VOLU</Cd>
+			</MndtryVlntryEvtTp>
+			<EvtPrcgTp>
+				<Cd>REOR</Cd>
+			</EvtPrcgTp>
+			<UndrlygScty>
+				<SctyId>
+					<ISIN>GB3333A53L22</ISIN>
+				</SctyId>
+			</UndrlygScty>
+		</CorpActnGnlInf>
+		<ElctnDtls>
+			<OptnTp>
+				<Cd>CASH</Cd>
+			</OptnTp>
+			<OptnNb>001</OptnNb>
+			<InstdUndrlygSctiesQty>
+				<Unit>500</Unit>
+			</InstdUndrlygSctiesQty>
+		</ElctnDtls>
+	</AgtCAElctnAdvc>
+</Document>

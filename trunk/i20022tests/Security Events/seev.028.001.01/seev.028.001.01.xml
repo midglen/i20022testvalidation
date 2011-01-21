@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Document xmlns = "urn:iso:std:iso:20022:tech:xsd:seev.028.001.01" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "urn:iso:std:iso:20022:tech:xsd:seev.028.001.01 file:///Y:/My%20Documents/Project/IssuerAgent/Official%20ISO%20schemas%20and%20documentation/seev.028.001.01.xsd">
+	<AgtCADeactvtnInstr>
+		<Id>
+			<Id>DEAC123</Id>
+		</Id>
+		<CorpActnGnlInf>
+			<AgtId>
+				<BICOrBEI>ISAGFRPP</BICOrBEI>
+			</AgtId>
+			<IssrCorpActnId>CAREF123</IssrCorpActnId>
+			<EvtTp>
+				<Cd>DVOP</Cd>
+			</EvtTp>
+			<MndtryVlntryEvtTp>
+				<Cd>MAND</Cd>
+			</MndtryVlntryEvtTp>
+			<EvtPrcgTp>
+				<Cd>DISN</Cd>
+			</EvtPrcgTp>
+			<UndrlygScty>
+				<SctyId>
+					<ISIN>FR9876543210</ISIN>
+				</SctyId>
+			</UndrlygScty>
+		</CorpActnGnlInf>
+		<DeactvtnDtls>
+			<DeactvtnDtAndTm>2008-04-11T11:00:00</DeactvtnDtAndTm>
+		</DeactvtnDtls>
+	</AgtCADeactvtnInstr>
+</Document>

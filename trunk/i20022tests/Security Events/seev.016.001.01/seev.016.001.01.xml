@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Document xmlns = "urn:iso:std:iso:20022:tech:xsd:seev.016.001.01" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "urn:iso:std:iso:20022:tech:xsd:seev.016.001.01 file:///Y:/My%20Documents/Project/IssuerAgent/Official%20ISO%20schemas%20and%20documentation/seev.016.001.01.xsd">
+	<AgtCADstrbtnBrkdwnAdvc>
+		<Id>
+			<Id>123ENTL</Id>
+		</Id>
+		<CorpActnGnlInf>
+			<AgtId>
+				<BICOrBEI>ISAGGB2L</BICOrBEI>
+			</AgtId>
+			<IssrCorpActnId>TNDOF123</IssrCorpActnId>
+			<EvtTp>
+				<Cd>TEND</Cd>
+			</EvtTp>
+			<MndtryVlntryEvtTp>
+				<Cd>VOLU</Cd>
+			</MndtryVlntryEvtTp>
+			<EvtPrcgTp>
+				<Cd>REOR</Cd>
+			</EvtPrcgTp>
+			<UndrlygScty>
+				<SctyId>
+					<ISIN>GB3333A53L22</ISIN>
+				</SctyId>
+			</UndrlygScty>
+		</CorpActnGnlInf>
+		<CorpActnDstrbtnDtls>
+			<OptnTp>
+				<Cd>CASH</Cd>
+			</OptnTp>
+			<OptnNb>001</OptnNb>
+			<AcctAndDstrbtnDtls>
+				<AcctId>12345</AcctId>
+				<CshDstrbtnDtls>
+					<CshAmt Ccy = "EUR">2000</CshAmt>
+				</CshDstrbtnDtls>
+			</AcctAndDstrbtnDtls>
+			<AcctAndDstrbtnDtls>
+				<AcctId>34512</AcctId>
+				<CshDstrbtnDtls>
+					<CshAmt Ccy = "EUR">1000</CshAmt>
+				</CshDstrbtnDtls>
+			</AcctAndDstrbtnDtls>
+			<AcctAndDstrbtnDtls>
+				<AcctId>98765</AcctId>
+				<CshDstrbtnDtls>
+					<CshAmt Ccy = "EUR">1500</CshAmt>
+				</CshDstrbtnDtls>
+			</AcctAndDstrbtnDtls>
+		</CorpActnDstrbtnDtls>
+	</AgtCADstrbtnBrkdwnAdvc>
+</Document>
