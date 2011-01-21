@@ -10,8 +10,17 @@ namespace i20022
     {
         static void Main(string[] args)
         {
-            AccountManagementTest acmtt = new AccountManagementTest();
-            acmtt.testAcmt00100102();
+            //getting path to search files
+            Console.WriteLine("Please, enter the path to search for files");
+            string path = Console.ReadLine();
+
+            //Applying read and write test
+            ReadAndWriteTest.runTest(path);
+
+            //Presenting final message
+            Console.WriteLine("");
+            Console.Write("Test is finished, please hit enter to end.");
+            Console.ReadLine();
         }
     }
 }
