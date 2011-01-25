@@ -70,7 +70,19 @@ namespace i20022
             //test squema compliance
             Console.Write("Test schema compliance...");
             //Creating report information
-            report.addInNewLine("             XSD Validation: OK!");
+            DirectoryInfo mother = Directory.GetParent(path);
+            FileInfo[] xsd = mother.GetFiles("*.xsd");
+            try
+            {
+                Validator.validate(path, xsd[0].FullName);
+                Console.WriteLine(" OK!");
+                report.addInNewLine("             XSD Validation: OK!");
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(" Invalid!");
+                report.addInNewLine("             XSD Validation: Invalid! Error: " + e.Message);
+            }
         }
     }
 }
