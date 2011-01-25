@@ -14,7 +14,7 @@ namespace i20022
     {
         public static void runTest(string path, Report report)
         {
-            Console.WriteLine("");
+            Console.WriteLine("...");
             Console.Write("Starting Read and Write Test for file: " + path + "...");
 
             //Creating report information
