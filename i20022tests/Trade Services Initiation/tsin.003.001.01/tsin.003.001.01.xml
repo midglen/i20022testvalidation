@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:tsin.003.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InvcFincgCxlReq>
+		<CxlReqId>
+			<Id>101024</Id>
+			<CreDtTm>2007-04-02T10:30:25-05:00</CreDtTm>
+		</CxlReqId>
+		<CxlReqInf>
+			<OrgnlGrpId>001024</OrgnlGrpId>
+			<OrgnlCreDtTm>2007-04-02T09:30:47-05:00</OrgnlCreDtTm>
+			<NbOfInvcReqs>2</NbOfInvcReqs>
+			<CxlRsn>Invoice payment process has been suspended by the buyer</CxlRsn>
+			<FincgRqstr>
+				<PtyId>
+					<Nm>Sica Corporation</Nm>
+					<PrtryId>
+						<Id>0000003L</Id>
+						<IdTp>CBI Identifier</IdTp>
+					</PrtryId>
+				</PtyId>
+				<CdtAcct>
+					<Id>
+						<UPIC>23683707994215</UPIC>
+					</Id>
+					<Ccy>EUR</Ccy>
+				</CdtAcct>
+				<FincgAcct>
+					<Id>
+						<UPIC>00125574999</UPIC>
+					</Id>
+					<Ccy>EUR</Ccy>
+				</FincgAcct>
+			</FincgRqstr>
+		</CxlReqInf>
+	</InvcFincgCxlReq>
+</Document>
