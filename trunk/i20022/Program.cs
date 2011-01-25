@@ -32,7 +32,6 @@ namespace i20022
 
         static void Main(string[] args)
         {
-
             //getting path to search files
             Console.WriteLine("************** i20022 framework test tool *****************");
             Console.WriteLine("Your current directory is: " + Directory.GetCurrentDirectory());
@@ -74,6 +73,7 @@ namespace i20022
             Console.WriteLine("Number of Messages OK: " + report.getNumberOfOKMessages());
             Console.WriteLine("Number of Messages Error: " + report.getNumberErrorMessages());
             Console.WriteLine("Total Number of Messages: " + report.getNumberOfMessages());
+            Console.WriteLine("");
             Console.Write("Test is finished, please press enter to exit.");
             Console.ReadLine();
         }
