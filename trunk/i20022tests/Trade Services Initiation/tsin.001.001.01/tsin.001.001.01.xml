@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:tsin.001.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InvcFincgReq>
+		<ReqGrpInf>
+			<GrpId>001024</GrpId>
+			<CreDtTm>2007-04-02T09:30:47-05:00</CreDtTm>
+			<NbOfInvcReqs>2</NbOfInvcReqs>
+			<TtlBlkInvcAmt Ccy="EUR">27000</TtlBlkInvcAmt>
+			<Ccy>EUR</Ccy>
+			<FincgRqstr>
+				<PtyId>
+					<Nm>Sica Corporation</Nm>
+					<PrtryId>
+						<Id>0000003L</Id>
+						<IdTp>CBI Identifier</IdTp>
+					</PrtryId>
+				</PtyId>
+				<CdtAcct>
+					<Id>
+						<UPIC>23683707994215</UPIC>
+					</Id>
+					<Ccy>EUR</Ccy>
+				</CdtAcct>
+				<FincgAcct>
+					<Id>
+						<UPIC>00125574999</UPIC>
+					</Id>
+					<Ccy>EUR</Ccy>
+				</FincgAcct>
+			</FincgRqstr>
+			<IntrmyAgt>
+				<ClrSysMmbId>
+					<USCHU>CH000000</USCHU>
+				</ClrSysMmbId>
+			</IntrmyAgt>
+			<FrstAgt>
+				<ClrSysMmbId>
+					<USCHU>CH000124</USCHU>
+				</ClrSysMmbId>
+			</FrstAgt>
+			<AddtlInf>
+				<InfTp>
+					<Cd>INST</Cd>
+				</InfTp>
+				<InfVal>Request Priority: 1</InfVal>
+			</AddtlInf>
+		</ReqGrpInf>
+		<!-- First Invoice Information -->
+		<InvcReqInf>
+			<InvcGnlInf>
+				<DocTp>CINV</DocTp>
+				<DocNb>A666656</DocNb>
+				<SndrRcvrSeqId>1</SndrRcvrSeqId>
+				<IsseDt>2007-03-08</IsseDt>
+			</InvcGnlInf>
+			<InvcTtlsInf>
+				<TtlTaxblAmt Ccy="EUR">10000</TtlTaxblAmt>
+				<TtlTaxAmt Ccy="EUR">2000</TtlTaxAmt>
+				<TtlInvcAmt Ccy="EUR">12000</TtlInvcAmt>
+				<PmtDueDt>2007-06-20</PmtDueDt>
+			</InvcTtlsInf>
+			<ReqdAmt>
+				<Rate>0.80</Rate>
+			</ReqdAmt>
+			<Spplr>
+				<PtyId>
+					<Nm>Sica Corporation</Nm>
+					<PstlAdr>
+						<AdrTp>ADDR</AdrTp>
+						<StrtNm>Princess Street</StrtNm>
+						<BldgNb>2</BldgNb>
+						<TwnNm>Kingston</TwnNm>
+						<Ctry>CA</Ctry>
+					</PstlAdr>
+					<Id>
+						<OrgId>
+							<PrtryId>
+								<Id>0000003L</Id>
+								<Issr>ACBI</Issr>
+							</PrtryId>
+						</OrgId>
+					</Id>
+				</PtyId>
+			</Spplr>
+			<Buyr>
+				<PtyId>
+					<Nm>DEF Technology</Nm>
+					<PstlAdr>
+						<AdrTp>ADDR</AdrTp>
+						<StrtNm>Piazza della Repubblica</StrtNm>
+						<BldgNb>32</BldgNb>
+						<TwnNm>Milan</TwnNm>
+						<Ctry>IT</Ctry>
+					</PstlAdr>
+				</PtyId>
+			</Buyr>
+			<InvcPmtInf>
+				<PmtMtd>TRF</PmtMtd>
+			</InvcPmtInf>
+		</InvcReqInf>
+		<!-- Second Invoice Information -->
+		<InvcReqInf>
+			<InvcGnlInf>
+				<DocTp>CINV</DocTp>
+				<DocNb>456789</DocNb>
+				<SndrRcvrSeqId>1</SndrRcvrSeqId>
+				<IsseDt>2007-03-15</IsseDt>
+			</InvcGnlInf>
+			<InvcTtlsInf>
+				<TtlTaxblAmt Ccy="EUR">12000</TtlTaxblAmt>
+				<TtlTaxAmt Ccy="EUR">3000</TtlTaxAmt>
+				<TtlInvcAmt Ccy="EUR">15000</TtlInvcAmt>
+				<PmtDueDt>2007-07-18</PmtDueDt>
+			</InvcTtlsInf>
+			<ReqdAmt>
+				<Amt Ccy="EUR">13000</Amt>
+			</ReqdAmt>
+			<Spplr>
+				<PtyId>
+					<Nm>Sica Corporation</Nm>
+					<PstlAdr>
+						<AdrTp>ADDR</AdrTp>
+						<StrtNm>Princess Street</StrtNm>
+						<BldgNb>2</BldgNb>
+						<TwnNm>Kingston</TwnNm>
+						<Ctry>CA</Ctry>
+					</PstlAdr>
+					<Id>
+						<OrgId>
+							<PrtryId>
+								<Id>0000003L</Id>
+								<Issr>ACBI</Issr>
+							</PrtryId>
+						</OrgId>
+					</Id>
+				</PtyId>
+			</Spplr>
+			<Buyr>
+				<PtyId>
+					<Nm>GHI Computer</Nm>
+					<PstlAdr>
+						<AdrTp>ADDR</AdrTp>
+						<StrtNm>Via dell'Arsenale</StrtNm>
+						<BldgNb>4</BldgNb>
+						<PstCd>10121</PstCd>
+						<TwnNm>Turin</TwnNm>
+						<Ctry>IT</Ctry>
+					</PstlAdr>
+				</PtyId>
+			</Buyr>
+			<InvcPmtInf>
+				<PmtMtd>TRF</PmtMtd>
+			</InvcPmtInf>
+		</InvcReqInf>
+	</InvcFincgReq>
+</Document>

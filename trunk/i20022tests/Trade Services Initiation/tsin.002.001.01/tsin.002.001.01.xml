@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:tsin.002.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InvcFincgReqSts>
+		<StsId>
+			<Id>105602</Id>
+			<CreDtTm>2007-04-02T12:30:47-05:00</CreDtTm>
+		</StsId>
+		<OrgnlReqInfAndSts>
+			<Id>001024</Id>
+			<CreDtTm>2007-04-02T09:30:47-05:00</CreDtTm>
+			<FincgRqstr>
+				<PtyId>
+					<Nm>Sica Corporation</Nm>
+					<PrtryId>
+						<Id>0000003L</Id>
+						<IdTp>CBI Identifier</IdTp>
+					</PrtryId>
+				</PtyId>
+				<CdtAcct>
+					<Id>
+						<UPIC>23683707994215</UPIC>
+					</Id>
+					<Ccy>EUR</Ccy>
+				</CdtAcct>
+				<FincgAcct>
+					<Id>
+						<UPIC>00125574999</UPIC>
+					</Id>
+					<Ccy>EUR</Ccy>
+				</FincgAcct>
+			</FincgRqstr>
+			<FrstAgt>
+				<ClrSysMmbId>
+					<USCHU>CH000124</USCHU>
+				</ClrSysMmbId>
+			</FrstAgt>
+			<VldtnStsInf>
+				<Sts>RCCF</Sts>
+			</VldtnStsInf>
+		</OrgnlReqInfAndSts>
+		<FincgInfAndSts>
+			<FincgAllwdSummry>
+				<FincdItmNb>1</FincdItmNb>
+				<TtlAccptdItmsAmt Ccy="EUR">15000</TtlAccptdItmsAmt>
+				<ApldPctg>0.867</ApldPctg>
+				<TtlFincdAmt Ccy="EUR">13000</TtlFincdAmt>
+			</FincgAllwdSummry>
+			<InvcFincgDtls>
+				<OrgnlInvcInf>
+					<DocNb>A666656</DocNb>
+					<TtlInvcAmt Ccy="EUR">12000</TtlInvcAmt>
+					<IsseDt>2007-03-08</IsseDt>
+					<PmtDueDt>2007-06-20</PmtDueDt>
+				</OrgnlInvcInf>
+				<InvcFincgRslt>
+					<FincgReqSts>NTFD</FincgReqSts>
+					<StsRsn>
+						<Cd>ID03</Cd>
+					</StsRsn>
+				</InvcFincgRslt>
+			</InvcFincgDtls>
+			<InvcFincgDtls>
+				<OrgnlInvcInf>
+					<DocNb>456789</DocNb>
+					<TtlInvcAmt Ccy="EUR">15000</TtlInvcAmt>
+					<IsseDt>2007-03-15</IsseDt>
+					<PmtDueDt>2007-07-18</PmtDueDt>
+				</OrgnlInvcInf>
+				<InvcFincgRslt>
+					<FincgReqSts>FNCD</FincgReqSts>
+					<FincdAmt>
+						<Amt Ccy="EUR">13000</Amt>
+					</FincdAmt>
+				</InvcFincgRslt>
+			</InvcFincgDtls>
+		</FincgInfAndSts>
+	</InvcFincgReqSts>
+</Document>
