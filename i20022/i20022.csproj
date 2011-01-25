@@ -35,9 +35,45 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\AccountManagement.dll</HintPath>
     </Reference>
+    <Reference Include="Administration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\Administration.dll</HintPath>
+    </Reference>
+    <Reference Include="CashManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\CashManagement.dll</HintPath>
+    </Reference>
     <Reference Include="i20022, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\i20022.dll</HintPath>
+    </Reference>
+    <Reference Include="PaymentsClearingAndSettlement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\PaymentsClearingAndSettlement.dll</HintPath>
+    </Reference>
+    <Reference Include="PaymentsInitiation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\PaymentsInitiation.dll</HintPath>
+    </Reference>
+    <Reference Include="ReferenceData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\ReferenceData.dll</HintPath>
+    </Reference>
+    <Reference Include="SecuritiesEvents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\SecuritiesEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="SecuritiesManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\SecuritiesManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="SecuritiesSettlement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\SecuritiesSettlement.dll</HintPath>
+    </Reference>
+    <Reference Include="SecuritiesTrade, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\SecuritiesTrade.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -51,6 +87,18 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="TradeServicesInitiation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\TradeServicesInitiation.dll</HintPath>
+    </Reference>
+    <Reference Include="TradeServicesManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\TradeServicesManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="Treasury, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7714131591c4441, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\i20022 Project\CoreClasses\Treasury.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ReadAndWriteTest.cs" />
