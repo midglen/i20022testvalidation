@@ -61,11 +61,10 @@ namespace i20022
                 return;
             }
 
-            File.WriteAllText(path + ".rw.test", mo.ToXml());
+            File.WriteAllText(path + ".test", mo.ToXml());
             Console.WriteLine(" Done!!!");
             //Creating report information
             report.add("OK!");
-            report.increaseOks();
 
             //test squema compliance
             Console.Write("Test schema compliance...");
@@ -74,9 +73,10 @@ namespace i20022
             FileInfo[] xsd = mother.GetFiles("*.xsd");
             try
             {
-                Validator.validate(path, xsd[0].FullName);
+                Validator.validate(path + ".test", xsd[0].FullName);
                 Console.WriteLine(" OK!");
                 report.addInNewLine("             XSD Validation: OK!");
+                report.increaseOks();
             }
             catch(Exception e)
             {
